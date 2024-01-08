@@ -1,0 +1,48 @@
+{
+  "resources/js/onboarding.js": {
+    "file": "assets/onboarding.4bc770d7.js",
+    "src": "resources/js/onboarding.js",
+    "isEntry": true,
+    "imports": [
+      "_jquery.2116c0e0.js"
+    ],
+    "css": [
+      "assets/onboarding.dd0412ea.css"
+    ]
+  },
+  "resources/frontend/js/frontend.js": {
+    "file": "assets/frontend.b6b2eef8.js",
+    "src": "resources/frontend/js/frontend.js",
+    "isEntry": true,
+    "imports": [
+      "_jquery.2116c0e0.js"
+    ]
+  },
+  "_jquery.2116c0e0.js": {
+    "file": "assets/jquery.2116c0e0.js"
+  },
+  "resources/frontend/css/frontend.css": {
+    "file": "assets/frontend.9d4363de.css",
+    "src": "resources/frontend/css/frontend.css",
+    "isEntry": true
+  },
+  "resources/js/onboarding.css": {
+    "file": "assets/onboarding.dd0412ea.css",
+    "src": "resources/js/onboarding.css"
+  },
+  "resources/css/onboarding.css": {
+    "file": "assets/onboarding.e17d0348.css",
+    "src": "resources/css/onboarding.css",
+    "isEntry": true
+  },
+  "resources/sass/admin.scss": {
+    "file": "assets/admin.3ffb5069.css",
+    "src": "resources/sass/admin.scss",
+    "isEntry": true
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app.b9a6d600.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
+  }
+}

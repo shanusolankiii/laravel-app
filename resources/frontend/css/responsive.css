@@ -1,0 +1,208 @@
+/*-----------------
+Responsive
+-----------------------*/
+
+@media only screen and (max-width:2000px) {}
+
+@media only screen and (max-width:1600px) {}
+
+@media only screen and (max-width:1440px) {}
+
+@media only screen and (max-width:1366px) {}
+
+@media only screen and (min-width:1366px) {}
+
+@media only screen and (max-width:1280px) {}
+
+@media only screen and (max-width:1200px) {}
+
+@media only screen and (max-width:1024px) {}
+
+@media only screen and (min-width: 991px) {
+	#toggle_btn {
+		display: none;
+	}
+	#toggle_btn {
+		color: #999;
+		float: left;
+		font-size: 26px;
+		line-height: 60px;
+		padding: 0 10px;
+		display: flex;
+	}
+	.mini-sidebar .header .header-left .logo .logo-full {
+		display: none;
+	}
+	.mini-sidebar .header .header-left .logo .logo-small {
+		display: inline-block;
+	}
+	.mini-sidebar .header-left .logo img {
+		height: auto;
+		max-height: 40px;
+		width: auto;
+	}
+	.mini-sidebar .header .header-left {
+		padding: 0 5px;
+		width: 60px;
+	}
+	.mini-sidebar .sidebar {
+		width: 60px;
+	}
+	.mini-sidebar.expand-menu .sidebar {
+		width: 230px;
+	}
+	.mini-sidebar .menu-title {
+		visibility: hidden;
+		white-space: nowrap;
+	}
+	.mini-sidebar.expand-menu .menu-title {
+		visibility: visible;
+	}
+	.mini-sidebar .menu-title a {
+		visibility: hidden;
+	}
+	.mini-sidebar.expand-menu .menu-title a {
+		visibility: visible;
+	}
+	.mini-sidebar .sidebar .noti-dot:before {
+		display: none;
+	}
+	.mini-sidebar .sidebar .noti-dot:after {
+		display: none;
+	}
+	.mini-sidebar.expand-menu .sidebar .noti-dot:before {
+		display: block;
+	}
+	.mini-sidebar.expand-menu .sidebar .noti-dot:after {
+		display: block;
+	}
+	.modal-open.mini-sidebar .sidebar {
+		z-index: 1001;
+	}
+	.mini-sidebar .sidebar .sidebar-menu ul > li > a span {
+		display: none;
+		transition: all 0.2s ease-in-out;
+		opacity: 0;
+	}
+	.mini-sidebar .sidebar .sidebar-menu ul > li > a span.chat-avatar-sm {
+		display: inline-block;
+		opacity: 1;
+	}
+	.mini-sidebar .sidebar .sidebar-menu ul > li > a span.status {
+		display: inline-block;
+		opacity: 1;
+	}
+	.mini-sidebar.expand-menu .sidebar .sidebar-menu ul > li > a span {
+		display: inline;
+		opacity: 1;
+	}
+	.mini-sidebar .sidebar .sidebar-menu > ul > li > a i {
+		font-size: 30px;
+		width: 30px;
+	}
+	.mini-sidebar.expand-menu .sidebar .sidebar-menu > ul > li > a i {
+		font-size: 24px;
+		width: 20px;
+	}
+	.mini-sidebar .page-wrapper {
+		margin-left: 60px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.header .header-left {
+		position: absolute;
+		width: 100%;
+		text-align: left;
+	}
+	.header .header-left{
+		padding-left: 50px;
+	}
+	.mobile_btn {
+		display: block;
+	}
+	.page-title-box {
+		display: none;
+	}
+	.sidebar {
+		margin-left: -225px;
+		width: 225px;
+		-webkit-transition: all 0.4s ease;
+		-moz-transition: all 0.4s ease;
+		transition: all 0.4s ease;
+		z-index: 1041;
+	}
+	a.mobile_btn {
+		color: #fff;
+		font-size: 24px;
+		height: 60px;
+		left: 0;
+		line-height: 60px;
+		padding: 0 15px;
+		position: absolute;
+		top: 0;
+		width: 50px;
+		z-index: 10;
+		display: flex;
+    	align-items: center;
+	}
+	#toggle_btn {
+		display: none;
+	}
+	.page-wrapper {
+		-webkit-transition: all 0.4s ease;
+		-moz-transition: all 0.4s ease;
+		transition: all 0.4s ease;
+		margin-left: 0;
+		padding:60px 0 20px;
+
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.account-page .main-wrapper {
+		grid-template-columns: 1fr;
+	}
+	.account-page {
+		background-color: var(--white);
+	}
+}
+
+@media only screen and (max-width: 736px) {
+	.header .header-left {
+		text-align: left;
+	}
+	.page-wrapper {
+		padding-bottom: 0;
+	}
+}
+
+@media only screen and (max-width: 684px) {}
+
+@media only screen and (max-width: 667px) {}
+
+@media only screen and (max-width: 640px) {}
+
+@media only screen and (max-width:600px) {}
+
+@media only screen and (max-width:568px) {
+	.info-listing>li {
+		display: block;
+	}
+	.info-listing li .title {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width:480px) {}
+
+@media only screen and (max-width:414px) {}
+
+@media only screen and (max-width:384px) {}
+
+@media only screen and (max-width:370px) {}
+
+@media only screen and (max-width:320px) {}
+
+@media only screen and (max-height: 411px) {}

@@ -1,0 +1,42 @@
+/*
+All PMS team CSS is here
+*/
+
+.not_nd_f-prev {
+    border-radius: 25px;
+    float: right;
+    padding: 0.2rem 0.6rem;
+    display: inline-block;
+    background-color: #fff;
+    color: #44a86b;
+    margin: 0 0.2rem;
+    border: 1px solid #44A86B;
+    font-size: .7rem;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+  }
+
+#ac_if_not_nd{
+  display: none;
+  padding: 4rem;
+  padding-top: 0;
+}
+.form-section.showacform {
+  height: auto;
+  padding-top: 1.5em;
+}
+.action-buttons{
+  display: flex;
+}
+.vff .f-full-width textarea {
+  padding-left: 0.16em;
+  padding-right: 0.16em;
+  width: 100%;
+  font-size: 18px;
+}
+.f-help{
+	display: none !important;
+}

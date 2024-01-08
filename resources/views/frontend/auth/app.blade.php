@@ -1,0 +1,5 @@
+@include('frontend.auth.includes.head')
+@include('frontend.auth.includes.header')
+@include('frontend.auth.includes.sidebar')
+@yield('content')
+@include('frontend.auth.includes.footer')
